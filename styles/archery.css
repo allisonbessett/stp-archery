@@ -1,8 +1,48 @@
-h1, h3, h4, nav, footer {
+* {
+      margin: 0 auto;
+      padding: 0;
+      box-sizing: border-box; 
+}
+
+div.nav_1_of_6 {width: 33.3333%;}
+
+}
+
+ div.row:after {
+   clear: both;
+    content: "";
+    display: block;
+}
+
+ div[class^='col_']  {
+      float: right;
+      padding: 1rem;
+}
+
+div.col_1_of_3 {width: 33.3333%;}
+div.col_2_of_3 {width: 66.6666%;}
+div.col_3_of_3 {width: 100%;}
+
+main {
+  text-align: center; 
+}
+
+h3, h4, nav, footer {
 font-family: 'Merriweather Sans', sans-serif;
 }
+
+div.title_3_of_6 {width: 50%;}
+
 
 
 p {
 font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+div.paragraph_4_of_6 {width: 66.6666%}
+
+.stpa {
+  width: 6rem;
+  height: auto;
+  margin: auto;
 }
