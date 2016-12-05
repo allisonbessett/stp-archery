@@ -4,45 +4,56 @@
       box-sizing: border-box; 
 }
 
-div.nav_1_of_6 {width: 33.3333%;}
+.stpa {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+}/*Can't get centered*/
 
+h1 {
+ display: block;
+  text-align: center;
 }
 
- div.row:after {
+div.nav {
+  text-align: center;
+}
+
+
+ div[class^='col_']  {
+      float: left;
+      padding: 1rem;
+}
+
+div.row:after {
    clear: both;
     content: "";
     display: block;
 }
 
- div[class^='col_']  {
-      float: right;
-      padding: 1rem;
-}
-
-div.col_1_of_3 {width: 33.3333%;}
-div.col_2_of_3 {width: 66.6666%;}
-div.col_3_of_3 {width: 100%;}
+div.col_1_of_6 {width: 16.666%;}
+div.col_2_of_6 {width: 33.333%;}
+div.col_3_of_6 {width:50%;}
+div.col_4_of_6 {width: 66.666%;}
+div.col_5_of_6 {width: 83.3333%;}
+div.col_6_of_6 {width: 100%;}
+div.col_3_of_4 {width: 75%;}
+div.col_3_of_5 {width: 60%;}
 
 main {
   text-align: center; 
 }
 
-h3, h4, nav, footer {
+p, div.nav, footer {
 font-family: 'Merriweather Sans', sans-serif;
 }
 
-div.title_3_of_6 {width: 50%;}
-
-
-
-p {
+.paragraph {
 font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-div.paragraph_4_of_6 {width: 66.6666%}
-
-.stpa {
-  width: 6rem;
-  height: auto;
-  margin: auto;
+footer {
+  text-align: center;
+  font-size: 0.8rem;
 }
+
