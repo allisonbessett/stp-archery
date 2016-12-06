@@ -1,47 +1,60 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="6cols.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Ubuntu+Condensed" rel="stylesheet">
-    <link rel="stylesheet" href="styles/archery.css">
+    <link rel="stylesheet" type="text/css" href="../week8/responsivegridsystem/css/6cols.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Ubuntu+Condensed" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="styles/archery.css"/>
     <script src="https://use.fontawesome.com/fe479e028a.js"></script>
     <title>About Us</title>
   </head>
   
   <body>
-    <img src ="images/logo.jpg" class="stpa" alt="STPA"/>
-    <h1>Straight To The Point Archery</h1>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <a href="classes.html"><li>Classes</li></a>
-        <li>Private Lessons</li>
-        <a href="index.html"><li>About Us</li></a>
-        <li>Policy</li>
-      </ul>
-    </nav>
+    <header>
+      <div class="col_2_of_6"><img src="images/logo.jpg" class="stpa" alt="STPA"/></div>
+      <div class="col_6_of_6"><h1>Straight To The Point Archery</h1></div>
+      <div class="nav">
+      <div class="col_1_of_6">Home</div>
+      <div class="col_1_of_6"><a href="classes.html">Classes</a></div>
+      <div class="col_1_of_6">Private Lessons</div>
+      <div class="col_1_of_6"><a href="instructors.html">Instructors</a></div>
+      <div class="col_1_of_6"><a href="index.html">About Us</a></div>
+      <div class="col_1_of_6">Policy</div>
+      </div>
+    </header>
     
     <main>
-      
-    <!--Trying out divs 
-    <div class="nav">
-    <div class="col_1_of_6">Home</div>
-    <div class="col_1_of_6"><a href="classes.html">Classes</a></div>
-    <div class="col_1_of_6">Private Lessons</div>
-    <div class="col_1_of_6"><a href="instructors.html">Instructors</a></div>
-    <div class="col_1_of_6"><a href="index.html">About Us</a></div>
-    <div class="col_1_of_6">Policy</div>
-    </div>-->
-    
- 
- <h4>Instructors</h4>
   
-      <p>Derek Jenkins: Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping. His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows and making custom leather products.</p>
+ 
+      <div class="col_6_of_6"><h4>Instructors</h4></div>
+  
+      <div class="col_3_of_6"><p>Derek Jenkins: Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping. His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows and making custom leather products.</p></div>
       
-      <p>Amy Smith: Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy  places a strong emphasis on safety and is enthusiastic about teaching. Amy also loves fitness, and  has been a YMCA group exercise and personal trainer for over 18 years.</p>
+      <div class="col_3_of_6"><img src="../stp-archery/images/derek-jenkins-instructor.jpg" class="instructor" alt="Derek Jenkins"></div>
       
-      <p>Nathan Lee: Nathan is an USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. He has been interested in archery since he nocked his first arrow while a Boy Scout at Scout camp. Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</p>
+      <div class="col_3_of_6"><p>Amy Smith: Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy  places a strong emphasis on safety and is enthusiastic about teaching. Amy also loves fitness, and  has been a YMCA group exercise and personal trainer for over 18 years.</p></div>
+      
+       <div class="col_3_of_6"><img src="../stp-archery/images/amy-smith-instructor.jpg" class="instructor" alt="Amy Smith"></div>
+      
+      <div class="col_3_of_6"><p>Nathan Lee: Nathan is an USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. He has been interested in archery since he nocked his first arrow while a Boy Scout at Scout camp. Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</p></div>
+      
+       <div class="col_3_of_6"><img src="../stp-archery/images/nathan-lee-instructor.jpg" class="instructor" alt="Nathan Lee"></div>
       
     </main>
+    
+   <div class="col_6_of_6">
+      <div class="footer">
+        <div class="col_1_of_6">Address: 528 Nock Point Ln Tacoma, WA 98412</div>
+        <div class="col_1_of_6">Email: archery-education@example.com</div>
+        <div class="col_1_of_6">Phone Number: (253) 555-1010</div>
+        <div class="col_1_of_6">Connect with us on Facebook: 
+        <i class="fa fa-facebook" aria-hidden="true"></i></div>
+        <div class="col_1_of_6">Subscribe to our YouTube channel: 
+        <i class="fa fa-youtube" aria-hidden="true"></i></div>
+        <div class="col_1_of_6">Follow us on Twitter: <i class="fa fa-twitter" aria-hidden="true"></i></div>
+        <div style="clear:both;"></div>
+      </div>
+    </div>
+  </body>
+</html>

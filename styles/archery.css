@@ -19,6 +19,13 @@ div.nav {
   text-align: center;
 }
 
+h4 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 0.9rem;
+}
 
  div[class^='col_']  {
       float: left;
@@ -44,16 +51,24 @@ main {
   text-align: center; 
 }
 
-p, div.nav, footer {
+.instructor {
+  width: 20rem;
+  height: auto;
+}
+
+p, div.nav {
 font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
 }
 
 .paragraph {
 font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-footer {
-  text-align: center;
-  font-size: 0.8rem;
+.footer {
+  overflow: hidden;
+  font-size: 0.7rem;
+  font-family: 'Merriweather Sans', sans-serif;
+
 }
 
