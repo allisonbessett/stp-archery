@@ -1,7 +1,7 @@
 * {
-      margin: 0 auto;
-      padding: 0;
-      box-sizing: border-box; 
+  margin: 0 auto;
+  box-sizing: border-box; 
+  color: #411c00;
 }
 
 .stpa {
@@ -13,39 +13,38 @@
 
 h1 {
  display: block;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
   text-align: center;
-   color: #411c00;
+  background-color: #a17f65;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
 }
 
 div.nav {
   text-align: center;
-  color: #411c00;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
-  color: #411c00;
 }
 
 h4 {
   font-size: 2rem;
-  color: #411c00;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
 p {
   font-size: 0.9rem;
-  color: #411c00;
 }
 
  div[class^='col_']  {
   float: left;
   padding: 1rem;
-}
-
-div.row:after {
-  clear: both;
-  content: "";
-  display: block;
 }
 
 div.col_1_of_6 {width: 16.666%;}
@@ -58,8 +57,7 @@ div.col_3_of_4 {width: 75%;}
 div.col_3_of_5 {width: 60%;}
 
 main {
-  text-align: 
-    center; 
+  text-align: center; 
 }
 
 .instructor {
@@ -67,21 +65,21 @@ main {
   height: auto;
 }
 
-h1, h4, div.nav {
-font-family: 'Merriweather Sans', sans-serif;
-text-align: center;
+.classes {
+  width: 20rem;
+  height: 20rem;
 }
 
 p {
 font-family: 'Ubuntu Condensed', sans-serif;
   letter-spacing: 0.1rem;
+  padding: 1rem;
 }
 
 .footer {
   overflow: hidden;
   font-size: 0.7rem;
   font-family: 'Merriweather Sans', sans-serif;
-  color: #411c00;
-  background-color: #a17f65
+  background-color: #a17f65;
 }
 
