@@ -5,37 +5,47 @@
 }
 
 .stpa {
-  display: inline-block;
-  width: 30%;
+  display: block;
+  width: 15%;
   height: auto;
-}/*Can't get centered*/
+  margin: auto;
+}
 
 h1 {
  display: block;
   text-align: center;
+   color: #411c00;
 }
 
 div.nav {
   text-align: center;
+  color: #411c00;
+}
+
+a {
+  text-decoration: none;
+  color: #411c00;
 }
 
 h4 {
   font-size: 2rem;
+  color: #411c00;
 }
 
 p {
   font-size: 0.9rem;
+  color: #411c00;
 }
 
  div[class^='col_']  {
-      float: left;
-      padding: 1rem;
+  float: left;
+  padding: 1rem;
 }
 
 div.row:after {
-   clear: both;
-    content: "";
-    display: block;
+  clear: both;
+  content: "";
+  display: block;
 }
 
 div.col_1_of_6 {width: 16.666%;}
@@ -48,7 +58,8 @@ div.col_3_of_4 {width: 75%;}
 div.col_3_of_5 {width: 60%;}
 
 main {
-  text-align: center; 
+  text-align: 
+    center; 
 }
 
 .instructor {
@@ -56,19 +67,21 @@ main {
   height: auto;
 }
 
-p, div.nav {
+h1, h4, div.nav {
 font-family: 'Merriweather Sans', sans-serif;
-  text-align: center;
+text-align: center;
 }
 
-.paragraph {
+p {
 font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 0.1rem;
 }
 
 .footer {
   overflow: hidden;
   font-size: 0.7rem;
   font-family: 'Merriweather Sans', sans-serif;
-
+  color: #411c00;
+  background-color: #a17f65
 }
 
